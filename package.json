@@ -1,0 +1,10 @@
+{
+  "name": "oferta-analisis-pwa",
+  "version": "2.0.0",
+  "private": true,
+  "description": "PWA local para consulta de oferta de análisis y requisitos preanalíticos",
+  "scripts": {
+    "test": "node tests/catalog.test.js",
+    "check": "node --check js/catalog.js && node --check js/db.js && node --check js/app.js && node --check sw.js"
+  }
+}
